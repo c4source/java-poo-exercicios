@@ -5,15 +5,16 @@ public class Main {
 
         Gerente g1 = new Gerente("Gabriel", 2000);
         Desenvolvedor d1 = new Desenvolvedor("Pamela", 5000, "Java");
+        Funcionario f1 = new Funcionario("niel", 4500);
 
 
-
+        double salarioFinal = g1.calcularSalarioFinal(200);
         g1.exibirDados();
-        g1.calcularSalarioFinal(200.50);
-        g1.exibirDados();
+        System.out.printf("Salario final %.2f %n", salarioFinal);
+
         d1.exibirDados();
-
-
+        g1.exibirDados();
+        f1.exibirDados();
 
 
 

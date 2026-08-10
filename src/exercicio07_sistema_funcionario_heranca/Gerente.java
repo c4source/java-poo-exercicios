@@ -15,16 +15,12 @@ public class Gerente extends Funcionario {
             double salarioFinal;
 
             if (bonus <= 0 ) {
-                System.out.println("Bonus inválido");
                 return salario;
 
             }
             else {
                 this.bonus = bonus;
                 salarioFinal = salario + bonus;
-                System.out.println("Bonus aceito");
-                System.out.printf("Salario final: R$ %.2f%n", salarioFinal);
-
             }
             return salarioFinal;
 
