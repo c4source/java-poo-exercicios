@@ -2,7 +2,7 @@ package exercicio09_Sistema_Conta_Bancaria;
 
 public class ContaCorrente extends Conta {
 
-    public double limite;
+    private double limite;
 
     public ContaCorrente(String numeroConta, double saldo, String titular, double limite) {
         super(numeroConta, saldo, titular);
@@ -15,8 +15,8 @@ public class ContaCorrente extends Conta {
     }
 
     @Override
-    public double calcularTaxaMensal (double taxaMensal) {
-
+    public double calcularTaxaMensal () {
+      return 25.5;
 
     }
 

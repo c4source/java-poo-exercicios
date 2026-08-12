@@ -20,7 +20,7 @@ public abstract class Conta {
         }
 
         else {
-            this.saldo = saldo;
+            this.saldo += valor;
             System.out.println("Valor depositado com sucesso!");
         }
 
@@ -33,7 +33,7 @@ public abstract class Conta {
         System.out.println("Titular: " + this.titular);
     }
 
-    public abstract double calcularTaxaMensal(double taxaMensal);
+    public abstract double calcularTaxaMensal();
 
     public String getNumeroConta() {
         return numeroConta;
