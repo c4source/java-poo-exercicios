@@ -7,7 +7,7 @@ public class Main {
 
 
 
-        //Variavel de Referencia é do tipo Funcionario e gerente e o objeto
+        //Variavel de referencia (f1) é do tipo Funcionario e gerente e o objeto
         //Funciona por que gerente extends funcionario. --> Gerente é um Funcionario
         //Uma referência da classe mãe pode apontar para um objeto de uma classe filha,
         //e o metodo sobrescrito executado será o da filha.
