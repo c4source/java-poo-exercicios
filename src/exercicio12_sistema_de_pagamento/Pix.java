@@ -1,4 +1,4 @@
-package exercicio012_sistema_de_pagamento;
+package exercicio12_sistema_de_pagamento;
 
 public class Pix extends Pagamento {
 

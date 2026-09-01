@@ -1,6 +1,4 @@
-package exercicio011_sistema_funcionario_polimorfismo;
-
-import java.sql.SQLOutput;
+package exercicio11_sistema_funcionario_polimorfismo;
 
 public class Main {
     public static void main(String[] args) {

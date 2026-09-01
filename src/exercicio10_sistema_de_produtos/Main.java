@@ -1,4 +1,4 @@
-package exercicio010_sistema_de_produtos;
+package exercicio10_sistema_de_produtos;
 
 public class Main {
     public static void main(String[] args) {

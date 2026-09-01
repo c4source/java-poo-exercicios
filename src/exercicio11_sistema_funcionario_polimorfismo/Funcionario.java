@@ -1,4 +1,4 @@
-package exercicio011_sistema_funcionario_polimorfismo;
+package exercicio11_sistema_funcionario_polimorfismo;
 
 public abstract class Funcionario {
 
